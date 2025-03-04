@@ -46,7 +46,7 @@ public class myFirstTCPServer {
                 
                 String response;
                 if (recvMsgSize != 2) {
-                    response = "****";
+                    response = "***";
                 } else {
                     response = new String(byteBuffer, 0, recvMsgSize).toUpperCase();
                 }
